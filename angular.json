@@ -40,6 +40,11 @@
                 "output": "."
               },
               {
+                "glob": "pwacompat.js",
+                "input": "src/sw",
+                "output": "."
+              },
+              {
                 "glob": "workbox-sw.js",
                 "input": "node_modules/workbox-sw/build",
                 "output": "./workbox-3.6.3"

@@ -10,7 +10,7 @@ workbox.clientsClaim();
 workbox.precaching.precacheAndRoute([
   {
     "url": "index.html",
-    "revision": "7045ac7977d405247f1548fc43e2f99a"
+    "revision": "5bbc31aa9d2ed3069abe237b14849f54"
   },
   {
     "url": "main.12c717f36624523c8a1b.js"
@@ -19,10 +19,18 @@ workbox.precaching.precacheAndRoute([
     "url": "polyfills.cab406b926958ce65dcb.js"
   },
   {
+    "url": "pwacompat.js",
+    "revision": "2adf01730efeeda2eab9306787c993b7"
+  },
+  {
     "url": "runtime.a5dd35324ddfd942bef1.js"
   },
   {
     "url": "styles.3ff695c00d717f2d2a11.css"
+  },
+  {
+    "url": "img/logo-small.png",
+    "revision": "e86462de73827b52ed50f3864046e0d3"
   },
   {
     "url": "img/logo.png",
