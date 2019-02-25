@@ -16,7 +16,7 @@
   <app-root></app-root>
   <script>
    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js').then(function (registration) {
+      navigator.serviceWorker.register('/vej-pwa-spike/service-worker.js', {scope: '/vej-pwa-spike/sub/'}).then(function (registration) {
         console.log('Service Worker registration successful with scope: ', registration.scope);
       }, function (err) {
         console.log('Service Worker registration failed: ', err);

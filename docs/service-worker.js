@@ -1,4 +1,4 @@
-importScripts('workbox-3.6.3/workbox-sw.js');
+importScripts('sub/workbox-3.6.3/workbox-sw.js');
 
 workbox.setConfig({
   debug: false,
@@ -10,7 +10,7 @@ workbox.clientsClaim();
 workbox.precaching.precacheAndRoute([
   {
     "url": "index.html",
-    "revision": "d91adad280fe902cbf5bdfc6351f986d"
+    "revision": "65cf881f695b0361fe912d899b9be89d"
   },
   {
     "url": "main.e85d06a8fb1329e89026.js"
