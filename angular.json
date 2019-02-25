@@ -24,7 +24,36 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              {
+                "glob": "*.*",
+                "input": "src/assets",
+                "output": "./img"
+              },
+              {
+                "glob": "manifest.webmanifest",
+                "input": "src/sw",
+                "output": "."
+              },
+              {
+                "glob": "service-worker.js",
+                "input": "src/sw",
+                "output": "."
+              },
+              {
+                "glob": "workbox-sw.js",
+                "input": "node_modules/workbox-sw/build",
+                "output": "./workbox-3.6.3"
+              },
+              {
+                "glob": "workbox-core.prod.js",
+                "input": "node_modules/workbox-core/build/",
+                "output": "./workbox-3.6.3"
+              },
+              {
+                "glob": "workbox-precaching.prod.js",
+                "input": "node_modules/workbox-precaching/build/",
+                "output": "./workbox-3.6.3"
+              }
             ],
             "styles": [
               "src/styles.scss"
