@@ -10,10 +10,10 @@ workbox.clientsClaim();
 workbox.precaching.precacheAndRoute([
   {
     "url": "index.html",
-    "revision": "70a3eb1e8f32c0ac2b3d2beabd8714de"
+    "revision": "d91adad280fe902cbf5bdfc6351f986d"
   },
   {
-    "url": "main.12c717f36624523c8a1b.js"
+    "url": "main.e85d06a8fb1329e89026.js"
   },
   {
     "url": "polyfills.cab406b926958ce65dcb.js"
