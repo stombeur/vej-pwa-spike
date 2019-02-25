@@ -1,14 +1,14 @@
 {
-    "name": "VDAB - Vind een job",
+    "name": "Vind een job",
     "short_name": "VindEenJob",
     "dir": "ltr",
     "lang": "nl",
-    "start_url": "/vindeenjob",
-    "scope": "/vindeenjob",
+    "start_url": "/vej-pwa-spike/sub/",
+    "scope": "/vej-pwa-spike/sub/",
     "display": "standalone",
     "background_color": "#2d89cc",
     "theme_color": "#2d89cc",
-    "description": "VDAB Vind een job applicatie",
+    "description": "Vind een job applicatie",
     "orientation": "portrait-primary",
     "icons": [{
       "src": "img/logo.png",

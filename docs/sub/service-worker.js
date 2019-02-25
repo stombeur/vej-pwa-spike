@@ -7,4 +7,25 @@ workbox.setConfig({
 
 workbox.skipWaiting();
 workbox.clientsClaim();
-workbox.precaching.precacheAndRoute([]);
+workbox.precaching.precacheAndRoute([
+  {
+    "url": "index.html",
+    "revision": "de622acb2ecdb22c49b569899fc8a43a"
+  },
+  {
+    "url": "main.12c717f36624523c8a1b.js"
+  },
+  {
+    "url": "polyfills.cab406b926958ce65dcb.js"
+  },
+  {
+    "url": "runtime.a5dd35324ddfd942bef1.js"
+  },
+  {
+    "url": "styles.3ff695c00d717f2d2a11.css"
+  },
+  {
+    "url": "img/logo.png",
+    "revision": "0d283b420fa4c9d94191f63324914b40"
+  }
+]);
